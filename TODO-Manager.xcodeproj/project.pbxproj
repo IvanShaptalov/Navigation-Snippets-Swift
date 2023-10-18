@@ -56,15 +56,79 @@
 		212B36522ADEA5F900158BBA /* TODO-Manager */ = {
 			isa = PBXGroup;
 			children = (
+				212B36712ADEA6EE00158BBA /* Resourses */,
+				212B366E2ADEA68F00158BBA /* Helpers */,
+				212B366D2ADEA68400158BBA /* Network */,
+				212B366C2ADEA67D00158BBA /* Storage */,
+				212B366B2ADEA67100158BBA /* Controller */,
+				212B366A2ADEA66800158BBA /* Model */,
+				212B36682ADEA65000158BBA /* View */,
 				212B36532ADEA5F900158BBA /* AppDelegate.swift */,
 				212B36552ADEA5F900158BBA /* SceneDelegate.swift */,
-				212B36572ADEA5F900158BBA /* ViewController.swift */,
-				212B36592ADEA5F900158BBA /* Main.storyboard */,
 				212B365C2ADEA5FB00158BBA /* Assets.xcassets */,
-				212B365E2ADEA5FB00158BBA /* LaunchScreen.storyboard */,
 				212B36612ADEA5FB00158BBA /* Info.plist */,
 			);
 			path = "TODO-Manager";
+			sourceTree = "<group>";
+		};
+		212B36682ADEA65000158BBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				212B36702ADEA6D400158BBA /* Storyboards */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		212B366A2ADEA66800158BBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		212B366B2ADEA67100158BBA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				212B36572ADEA5F900158BBA /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		212B366C2ADEA67D00158BBA /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		212B366D2ADEA68400158BBA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		212B366E2ADEA68F00158BBA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		212B36702ADEA6D400158BBA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				212B36592ADEA5F900158BBA /* Main.storyboard */,
+				212B365E2ADEA5FB00158BBA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		212B36712ADEA6EE00158BBA /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resourses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
